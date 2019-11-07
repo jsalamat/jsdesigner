@@ -53,3 +53,13 @@ $(document).ready(function() {
     })
 })
 
+
+$(window).scroll(function() {    
+    var scroll = $(window).scrollTop();
+
+    if (scroll >= 500) {
+        $(".typing_time").addClass("line anim-typewriter");
+    } else {
+        $(".typing_time").removeClass("line anim-typewriter");
+    }
+});
