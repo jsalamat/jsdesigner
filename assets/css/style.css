@@ -138,6 +138,10 @@
 }
 
 /* End of header*/
+a.navbar-brand.scroll {
+/*    color: blue;*/
+  text-shadow: 1px 1px white;
+}
 
 a.navbar-brand {
   font-size: 30px;
