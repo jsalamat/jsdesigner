@@ -70,8 +70,8 @@
   text-decoration: none;
 }
 
-.btn:hover,
-.btn:focus{
+.btn:hover/*,
+.btn:focus*/{
   background: #0f37ff;
   color:#007bff;
   transition: background 2s, color 2s;
@@ -139,8 +139,8 @@
 
 /* End of header*/
 a.navbar-brand.scroll {
-/*    color: blue;*/
-  text-shadow: 1px 1px white;
+    color: white;
+  text-shadow: 1.5px 1.5px rgba(105, 240, 255, 0.7);
 }
 
 a.navbar-brand {
@@ -449,3 +449,8 @@ input[type=submit]:hover {
 }
 
 /*updated composer json and composer lock*/
+a.navbar-brand.scroll:focus {
+  color:white;
+}a.navbar-brand.scroll:hover {
+  color:lightblue;
+}
